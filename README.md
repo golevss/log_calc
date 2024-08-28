@@ -23,17 +23,17 @@
 \
 Пример:
 ```
-c <=> NOT ( a XOR b OR a AND c ) => b XOR c.\
-a = 0 b = 1 c = 1\
+c <=> NOT ( a XOR b OR a AND c ) => b XOR c.
+a = 0 b = 1 c = 1
 ```
 \
 После чего в консоль выведется три строки : значение каждой переменной, заданное уравнение в обратной польской нотации, результат вычислений.\
 \
 Пример:
 ```
-Values: a = false b = true c = true\
-Polish Notation: c a b XOR a c AND OR NOT b c XOR => <=>\
-Result: false\
+Values: a = false b = true c = true
+Polish Notation: c a b XOR a c AND OR NOT b c XOR => <=>
+Result: false
 ```
 \
 После выполнения вычислений пользователь может как внести ещё одно уравнение или завершить программу, для этого надо ввести символ ".".
